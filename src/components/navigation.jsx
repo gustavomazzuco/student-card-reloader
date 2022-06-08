@@ -17,19 +17,17 @@ export function Menu() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-
                         <li className="nav-item">
                             <Link to="/home" className="nav-link active" aria-current="page" href="#">Home</Link>
                         </li>
-
-                        <li className="nav-item button-acesso">
-                            <Link to="" className="nav-link">Meu Perfil</Link>
+                        <li className="nav-item">
+                            <Link to="/home" className="nav-link active" aria-current="page" href="#">Recarga</Link>
                         </li>
                     </ul>
 
                     <ul class="nav navbar-nav my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-user"></i> Sign Up</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/perfil"><i class="fas fa-user"></i> Meu Perfil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/login"><i class="fas fa-sign-in-alt"></i> Sair</a></li>
                     </ul>
 
                 </div>
